@@ -1,0 +1,104 @@
+.wrapper {
+	margin: 0 auto;
+	width: 1200px
+	padding:2%;
+}
+
+.column {
+	float:left;
+	width: 20%;
+	margin: 2%;
+	padding-bottom:4%;
+}
+
+.half{
+	float:left;
+	width: 44%;
+	margin: 2%;
+}
+
+
+.heading {
+	margin: 0 auto;
+	width: 100%;
+	align-content: center;
+	height: 150px;
+}
+
+#column2 {
+
+}
+
+#thumbnail {
+	width: 100%;
+	margin: 1%;
+}
+
+#column4 {
+
+}
+
+#column5 {
+
+}
+
+hr {
+	color: #333;
+}
+
+nav {
+	font-family: "brandon-grotesque", sans-serif;
+	font-size: .8em;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: .25em;
+}
+
+nav a {
+	color: #1C1C1C;
+	text-decoration: none;
+	display:inline-block;
+	margin:1% 4em;
+}
+
+nav a:hover {
+	border-bottom: solid 2px;
+	padding-bottom:4px;
+}
+
+
+p {
+	font-family: adobe-caslon-pro, serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	color: #1C1C1C;
+	line-height: 1.5em;
+}
+
+h1{
+	font-size: 1.3em;
+	}
+
+h2{
+	font-family: "brandon-grotesque", sans-serif;
+	font-size: 1em;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	line-height:.25em;
+	}
+
+h6{
+	font-style: italic;
+	font-weight: 500;
+	font-size: 12px;
+	}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
